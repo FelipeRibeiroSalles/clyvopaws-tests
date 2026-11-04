@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Busca por nome (Ração) e filtro por categoria (CACHORRO) no catálogo de produtos. Ref. Azure Boards TC05.</description>
+   <name>TC_AUTO_03_BuscaCatalogo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5ec1001-f4cc-4b56-8059-d432b4ca233f</testCaseGuid>
+</TestCaseEntity>

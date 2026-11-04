@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login com credenciais válidas de um tutor já cadastrado e verificação da Home autenticada. Ref. Azure Boards TC02.</description>
+   <name>TC_AUTO_02_Login</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Felipe RSalles</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Felipe RSalles</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>1d1a744a-4acc-4cb4-9576-bacc6288f1a8</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>1d1a744a-4acc-4cb4-9576-bacc6288f1a8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3e9e554-c8d4-48e3-9b3d-7ee9ca6fe59a</testCaseGuid>
+</TestCaseEntity>

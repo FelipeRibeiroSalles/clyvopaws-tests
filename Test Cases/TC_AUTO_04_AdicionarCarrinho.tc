@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adiciona o primeiro produto do catálogo ao carrinho com quantidade 2 e confirma o total. Ref. Azure Boards TC06.</description>
+   <name>TC_AUTO_04_AdicionarCarrinho</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0500cf59-44bb-4d31-901c-786a573f985e</testCaseGuid>
+</TestCaseEntity>
