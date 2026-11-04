@@ -14,8 +14,9 @@ Evidência de automação de testes do ClyvoPaws (FIAP Challenge 2026), exigida 
 | [`TC_AUTO_02_Login`](./Scripts/TC_AUTO_02_Login) | Login com credenciais válidas e verificação da Home autenticada | TC02 | Passou (16/16 passos) |
 | [`TC_AUTO_03_BuscaCatalogo`](./Scripts/TC_AUTO_03_BuscaCatalogo) | Busca por nome ("Ração") e filtro por categoria (CACHORRO) | TC05 | Passou (32/32 passos) |
 | [`TC_AUTO_04_AdicionarCarrinho`](./Scripts/TC_AUTO_04_AdicionarCarrinho) | Adicionar produto ao carrinho com quantidade 2 e conferir o total | TC06 | Passou (37/37 passos) |
+| [`TC_AUTO_05_RemoverCarrinho`](./Scripts/TC_AUTO_05_RemoverCarrinho) | Adicionar produto ao carrinho e remover o item, confirmando que ele some | TC07 | Passou (42/42 passos) |
 
-> **Nota sobre TC_AUTO_01 (Cadastro):** o endpoint de cadastro do backend retorna HTTP 500 para qualquer entrada válida (reproduzido com 4 combinações diferentes de CPF/e-mail). O problema está no backend (repositório separado, responsável: Lucas Matsubara) e não no app mobile nem na automação. O caso será automatizado assim que o endpoint for corrigido.
+> **Nota sobre TC_AUTO_01 (Cadastro):** o endpoint de cadastro do backend retorna HTTP 500 para qualquer entrada válida (reproduzido com 4 combinações diferentes de CPF/e-mail). O problema está no backend (repositório separado, responsável: Lucas Matsubara) e não no app mobile nem na automação. O caso será automatizado assim que o endpoint for corrigido. Os 4 casos automatizados que passam são TC_AUTO_02 a TC_AUTO_05.
 
 Os testes usam localizadores XPath baseados em `aria-label` (gerado pelo `accessibilityLabel` do React Native Web) e uma conta de teste já existente (`art@gmail.com`, conta de teste exclusiva para QA).
 
@@ -26,7 +27,7 @@ Os testes usam localizadores XPath baseados em `aria-label` (gerado pelo `access
 3. `npx expo start --web` — o app deve responder em `http://localhost:8081`.
 4. No Katalon Studio: **File → Open Project** e abrir a pasta deste repositório.
 5. Garantir que o Google Chrome esteja instalado e que o backend esteja no ar.
-6. Executar cada Test Case (`TC_AUTO_02_Login`, `TC_AUTO_03_BuscaCatalogo`, `TC_AUTO_04_AdicionarCarrinho`) com o navegador Chrome.
+6. Executar cada Test Case (`TC_AUTO_02_Login`, `TC_AUTO_03_BuscaCatalogo`, `TC_AUTO_04_AdicionarCarrinho`, `TC_AUTO_05_RemoverCarrinho`) com o navegador Chrome.
 
 ## Evidências
 
