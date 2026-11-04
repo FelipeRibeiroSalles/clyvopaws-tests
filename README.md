@@ -28,7 +28,7 @@ Os testes usam localizadores XPath baseados em `aria-label` (gerado pelo `access
 
 ## Evidências
 
-- Vídeo de configuração, execução e resultados: **[LINK DO VÍDEO]**
+- Vídeo de configuração, execução e resultados: https://youtu.be/j0sr4WivzfU
 - Plano de teste manual (Test Plan 173, suíte 175) no Azure Boards: https://dev.azure.com/RM565224/ClyvoPaws/_testPlans/define?planId=173&suiteId=175
 
 ## Plano de teste manual
